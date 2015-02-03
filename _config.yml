@@ -1,0 +1,35 @@
+title: "IPinator for OS X"
+description: "Glanceable IP Address Info for OS X"
+tagline: "IP Widget for OS X"
+keywords: [ip address, widget, istat, external ip, ip extension, network, geolocation, ip geocoding, vpn, osx, mac]
+author:
+  name: "Reda Lemeden"
+
+baseurl: ""
+url: http://ipinator.kaishin.co
+future: false
+show_drafts: false
+limit_posts: 0
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: pretty
+exclude: [
+  "node_modules",
+  "gulp.js",
+  "gulpfile.coffee",
+  "package.json",
+  "README.md",
+  "Gemfile",
+  "Gemfile.lock"
+]
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default

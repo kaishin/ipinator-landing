@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+    <header>
+      <h1 class="main-title">
+        IPinator
+        <p class="description">{{ site.description }}</p>
+      </h1>
+    </header>
+    <main>
+      {{ content }}
+    </main>
+    <footer>
+      <span class="copyright">&copy;</span> {{ site.time | date: '%Y' }} Kaishin & Co SARL. All Rights Reserved.
+      <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+      <script src="/scripts/main.js" type="text/javascript"></script>
+    </footer>
+  </body>
+</html>
