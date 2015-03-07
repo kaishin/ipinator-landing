@@ -1,0 +1,30 @@
+footer {
+  $padding: 1.8rem;
+  color: #aaa;
+  display: block;
+  font-style: 0.9rem;
+  font-weight: 100;
+  line-height: 1.4;
+  padding-bottom: $padding;
+  padding-top: $padding;
+  position: relative;
+  text-align: center;
+
+  &::before {
+    @include wtr-size(200px, 1px);
+    background-color: #eee;
+    content: "";
+    display: block;
+    margin: 0 auto 2rem;
+  }
+
+  .copyright {
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+    font-style: italic;
+  }
+}
+

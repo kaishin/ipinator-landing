@@ -2,6 +2,8 @@
 layout: default
 ---
 
+---
+
 ## Privacy Policy
 
 This privacy policy governs your use of the software application IPinator ("Application") for desktop devices that was created by Kaishin & Co. The Application is a Today widget for OS X that displays information about the IP addresses of the computer.

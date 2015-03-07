@@ -1,5 +1,8 @@
 @import "vendor";
+@import "button";
 @import "syntax";
+@import "support";
+@import "footer";
 
 img {
   max-width: 100%;
@@ -63,6 +66,14 @@ main {
       display: block;
     }
   }
+
+  hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    height: 1px;
+    margin-bottom: 3rem;
+    display: block;
+  }
 }
 
 .download-button {
@@ -73,23 +84,6 @@ main {
   img {
     max-width: 80%;
     min-width: 250px;
-  }
-}
-
-footer {
-  $padding: 1.8rem;
-  @extend %container;
-  color: #aaa;
-  display: block;
-  font-style: 0.9rem;
-  font-weight: 100;
-  padding-bottom: $padding;
-  padding-top: $padding;
-  position: relative;
-  text-align: center;
-
-  .copyright {
-    font-family: "Helvetica Neue", "Arial", sans-serif;
   }
 }
 
@@ -190,6 +184,7 @@ textarea {
 
 textarea {
   resize: vertical;
+  min-height: 100px;
 }
 
 [type="search"] {

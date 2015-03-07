@@ -1,0 +1,10 @@
+.support-form {
+  margin: auto;
+  max-width: 400px;
+}
+
+[type=submit] {
+  @extend %button;
+  @include button(#6b56bf);
+  width: 100%;
+}
