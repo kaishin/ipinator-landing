@@ -13,7 +13,7 @@ img {
 
 header {
   @extend %container;
-  padding-top: 5rem;
+  padding-top: 3rem;
   text-align: center;
 }
 
@@ -26,6 +26,12 @@ header {
   font-size: 3em;
   font-weight: 300;
   text-align: center;
+
+  img {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto 1rem;
+  }
 }
 
 .description {
@@ -38,8 +44,35 @@ main {
   @extend %container;
   font-family: "Helvetica Neue";
 
-  p {
-    line-height: 1.2;
+  .description {
+    color: #555;
+    font-family: "Baskerville", "Garamond", serif;
+    font-size: 1em;
+    line-height: 1.4;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    position: relative;
+    text-align: center;
+
+    &::after {
+      content: "";
+      background-color: #EEE;
+      margin: 3rem auto 0;
+      @include wtr-size(200px, 1px);
+      display: block;
+    }
+  }
+}
+
+.download-button {
+  display: block;
+  margin-bottom: 2em;
+  text-align: center;
+
+  img {
+    max-width: 80%;
+    min-width: 250px;
   }
 }
 
