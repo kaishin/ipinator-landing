@@ -114,6 +114,5 @@ gulp.task "browser-sync", ->
     server:
       baseDir: destinationFolder
     host: "localhost"
-    port: 4000
-    open: true
-    browser: "chrome"
+    port: 4002
+    open: false
