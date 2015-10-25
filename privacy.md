@@ -8,7 +8,6 @@ layout: default
 
 This privacy policy governs your use of the software application IPinator ("Application") for desktop devices that was created by Kaishin & Co. The Application is a Today widget for OS X that displays information about the IP addresses of the computer.
 
-
 #### 1. What information does the Application obtain and how is it used?
 
 The Application obtains the local IP address of the user using officially available APIs. This information is never transmitted to a remote server.
@@ -29,7 +28,7 @@ You can stop the collection of IP information by the Application easily by unins
 
 #### 5. Data Retention Policy
 
-Aggregated, anonymized data about IP address requests will be kept on the server for an indefinite period of time. This data is solely used for internal analytic purposes.
+Aggregated, anonymized data about IP address requests will be kept on the server for an indefinite period of time. This data is solely used for internal purposes.
 
 #### 6. Children
 
